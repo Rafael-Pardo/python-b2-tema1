@@ -39,7 +39,7 @@ from typing import ByteString, Union
 def text_to_bytes(text: str) -> bytes:
     return text.encode('utf-8') #Retorna el texto original codificado  como "utf'8"
 
-
+# Esta linea se aadio editando el fichero en el repositorio
 
 def reverse_bytes(bytes_data: ByteString) -> bytearray:
     return bytearray(bytes_data[::-1]) #Retorna el texto original para como espejo horizontal
